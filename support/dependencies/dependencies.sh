@@ -38,13 +38,7 @@ case ":${PATH:-unset}:" in
 	echo "PATH environment variable. This doesn't work."
 	exit 1
 	;;
-#(*" "*|*"${TAB}"*|*"${NL}"*)
-#	printf "\n"
-#	printf "Your PATH contains spaces, TABs, and/or newline (\\\n) characters.\n"
-#	printf "This doesn't work. Fix you PATH.\n"
-#	exit 1
-#	;;
-#esac
+esac
 
 check_prog_host()
 {
